@@ -33,17 +33,12 @@ const TopCategories = () => {
       sx={{
         marginBottom: "40px ",
 
-        // background: "#f2f5f4",
-        // position: "relative",
-        // fontsize: "14px",
-        // color: "rgb(94, 92, 92)",
-        // // margin: "2px",
-        padding: "25px",
+        padding: "15px",
       }}
       fixed
     >
       <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={4}>
+        {/* <Grid container spacing={4}>
           <Grid container item spacing={2}>
             {categorieItem.map((item) => (
               <Grid item xs={2}>
@@ -51,12 +46,17 @@ const TopCategories = () => {
               </Grid>
             ))}
           </Grid>
-          {/* <Grid container item spacing={2}>
-            <FormRow />
-          </Grid> */}
-          {/* <Grid container item spacing={2}>
-            <FormRow />
-          </Grid> */}
+        </Grid> */}
+        <Grid
+          container
+          spacing={{ xs: 2, md: 3 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
+        >
+          {categorieItem.map((item, index) => (
+            <Grid item xs={2} sm={4} md={2} key={index}>
+              <Item>{item}</Item>
+            </Grid>
+          ))}
         </Grid>
       </Box>
     </Container>
