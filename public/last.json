@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Alyssa-Carson",
+    "country": "USA",
+    "age": 608,
+    "salary": 999999,
+    "img": "https://i.ibb.co/fYjBs5K/Screenshot-10.png"
+  },
+  {
+    "id": 2,
+    "name": "Chris-Ferguson",
+    "country": "Usa,californiya",
+    "age": 40,
+    "salary": 999999,
+    "img": "https://i.ibb.co/Wnt85Rt/Screenshot-11.png"
+  },
+  {
+    "id": 3,
+    "name": "jessica-Meir",
+    "country": "USA,Shouth State",
+    "age": 8,
+    "salary": 999999,
+    "img": "https://i.ibb.co/mth5kLb/Screenshot-12.png"
+  },
+  {
+    "id": 4,
+    "name": "Mahjabin-Haque",
+    "country": "Bangladesh",
+    "age": 28,
+    "salary": 999999,
+    "img": "https://i.ibb.co/fYjBs5K/Screenshot-10.png"
+  }
+]
