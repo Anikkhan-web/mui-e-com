@@ -54,7 +54,7 @@ const TopCategories = () => {
         >
           {categorieItem.map((item, index) => (
             <Grid item xs={2} sm={4} md={2} key={index}>
-              <Item>{item}</Item>
+              <Item sx={{ p: 2 }}>{item}</Item>
             </Grid>
           ))}
         </Grid>

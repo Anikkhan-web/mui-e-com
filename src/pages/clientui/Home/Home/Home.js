@@ -3,6 +3,7 @@ import React from "react";
 import Banner from "../Banner/Banner";
 import Categories from "../Categories/Categories/Categories";
 import LastMotiveSection from "../LastMotiveSection/LastMotiveSection";
+import NewArrivals from "../NewArrivals/NewArrivals/NewArrivals";
 
 import Page from "../Page/Page";
 import Shop from "../Shop/Shop";
@@ -17,8 +18,10 @@ const Home = () => {
       <Shop></Shop>
       <SiteOff></SiteOff>
       <Categories></Categories>
-      <LastMotiveSection></LastMotiveSection>
+
+      <NewArrivals></NewArrivals>
       <TopCategories></TopCategories>
+      <LastMotiveSection></LastMotiveSection>
     </div>
   );
 };
